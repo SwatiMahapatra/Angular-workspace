@@ -1,0 +1,11 @@
+<div>
+  <!-- <app-header message="Hello world"></app-header> -->
+  <app-header [message]="inp"></app-header>
+  <div class="app">
+    <h1>I am APP Component</h1>
+    <input type="text" [(ngModel)]="inp">
+    <!-- {{inp}} -->
+    <input type="text">
+  </div>
+  <app-footer></app-footer>
+</div>
