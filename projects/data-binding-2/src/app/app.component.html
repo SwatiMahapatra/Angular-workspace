@@ -1,0 +1,11 @@
+<h1>Proprty-Binding</h1>
+<!-- <div [class.dark]="isDark" [class.main]="isMain"> -->
+  <div [ngClass]="{'dark':isDark}">
+  <!-- <p style="text-transform: uppercase;">{{name}}</p> -->
+  <!-- <p [style.text-transform]="upCase" [style.color]="myColor">{{name}}</p> -->
+  <p [ngStyle]="{'text-transform':upCase, 'color':myColor}">{{name}}</p>
+  <img [src]="imgUrl" alt="">
+  <button style="margin-top: 20px;" (click)="myMethod()">Click me</button>
+  <input type="text" (input)="inputMethod($event)">
+  {{inp}}
+</div>
