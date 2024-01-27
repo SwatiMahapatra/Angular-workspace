@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChildCompComponent } from './child-comp/child-comp.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +11,8 @@ import { ChildCompComponent } from './child-comp/child-comp.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormData
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'communication-cto';
+  msg='';
+  fun2(m:any){
+    this.msg=m;
+  }
 }
